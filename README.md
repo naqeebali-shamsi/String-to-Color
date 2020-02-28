@@ -3,7 +3,7 @@ Generate a unique color based on your string.
 
 This is a simple hashing algorithm that specifically generates a Hex-color-code
 based on the string that you provide to it.
-Author: <i>@SkyWaLk3R
+Author: <i>@SkyWaLk3R</i>
 
 This class has following methods that can be used independently:
 
