@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T05:49:03.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="BHZjqVKHpyj_MBpefIO9" type="github"><diagram id="n2-HLFauGhAS_GIjNEMf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-17T05:58:05.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-htsHqz9AOGua6aIJ157" version="20.5.3" type="github">
+  <diagram id="n2-HLFauGhAS_GIjNEMf" name="Page-1">
+    <mxGraphModel dx="964" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UstX4fgV5zNP3OhDcfgB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UstX4fgV5zNP3OhDcfgB-1" target="UstX4fgV5zNP3OhDcfgB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UstX4fgV5zNP3OhDcfgB-1" value="Search and select &quot;dataproc&quot; in the search bar on the GCP console homepage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UstX4fgV5zNP3OhDcfgB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UstX4fgV5zNP3OhDcfgB-2" target="UstX4fgV5zNP3OhDcfgB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UstX4fgV5zNP3OhDcfgB-2" value="Click &quot;Create Cluster&quot; and click &quot;CREATE&quot; besides the &quot;Cluster on Compute Engine&quot; option" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UstX4fgV5zNP3OhDcfgB-3" value="Fill in the required fields,&lt;br&gt;Cluster type: Single Node, N workers&lt;br&gt;When satisfied with the choices, click on &quot;CREATE&quot; button." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="200" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
