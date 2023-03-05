@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2023-03-05T00:58:26.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.16" etag="UEqllHAC6naT3G9H85og" type="github"><diagram name="Page-1" id="cI3BpT9nREYN-RQ_f9UF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-05T01:09:24.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="K2zWNJUd4bykV_KxZ6lz" version="20.8.16" type="github">
+  <diagram name="Page-1" id="cI3BpT9nREYN-RQ_f9UF">
+    <mxGraphModel dx="1221" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pnXuO4F0vth18v2daq0T-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-1" target="pnXuO4F0vth18v2daq0T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="pnXuO4F0vth18v2daq0T-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-3" target="pnXuO4F0vth18v2daq0T-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-3" value="User scans QR code on the ticket via smartphone" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-6" target="pnXuO4F0vth18v2daq0T-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-6" value="Game app is downloaded on the user&#39;s smartphone" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-8" target="pnXuO4F0vth18v2daq0T-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-8" value="Player is introduced to the game by the app." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-10" target="pnXuO4F0vth18v2daq0T-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-10" value="Task 1: Find and unlock information" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-12" target="pnXuO4F0vth18v2daq0T-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-12" value="Task 2: Solve puzzle/riddle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-14" target="pnXuO4F0vth18v2daq0T-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-14" value="Task 3: Use VR device or hologram to gain information about the final artifact" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-18" target="pnXuO4F0vth18v2daq0T-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-18" target="pnXuO4F0vth18v2daq0T-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnXuO4F0vth18v2daq0T-18" target="pnXuO4F0vth18v2daq0T-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-18" value="Collaborate with other users" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnXuO4F0vth18v2daq0T-22" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="630" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
