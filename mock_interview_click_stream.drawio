@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-03-11T20:44:09.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="BZTLqamT2jcXC1IvpqZT" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-11T20:52:23.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="H1rxGQjkBZpB9f-bYtBP" version="21.0.6" type="github">
   <diagram name="Page-1" id="bogNzPYOoFLCBacCzL5H">
-    <mxGraphModel dx="814" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2108" dy="1282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ezZ92j0wQIy79cVgiJs7-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="330" width="30" height="60" as="geometry" />
+          <mxGeometry x="-10" y="330" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ezZ92j0wQIy79cVgiJs7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ezZ92j0wQIy79cVgiJs7-2" target="ezZ92j0wQIy79cVgiJs7-3">
           <mxGeometry relative="1" as="geometry" />
@@ -25,6 +25,9 @@
         <mxCell id="ezZ92j0wQIy79cVgiJs7-4" value="User clicks on the &quot;Mock Interview&quot; link on the app&#39;s navbar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="330" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ezZ92j0wQIy79cVgiJs7-5" target="ezZ92j0wQIy79cVgiJs7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ezZ92j0wQIy79cVgiJs7-5" value="User is redirected to the interview configuration page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="330" width="120" height="60" as="geometry" />
         </mxCell>
@@ -33,6 +36,41 @@
             <mxPoint x="110" y="360" as="sourcePoint" />
             <mxPoint x="130" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ezZ92j0wQIy79cVgiJs7-11" target="ezZ92j0wQIy79cVgiJs7-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="689.9999999999998" y="579.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-11" value="User configures the interview&lt;br&gt;and clicks on &quot;Start&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ezZ92j0wQIy79cVgiJs7-14" target="ezZ92j0wQIy79cVgiJs7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-14" value="User clicks on &quot;Mic&quot; button to record answer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezZ92j0wQIy79cVgiJs7-15" target="ezZ92j0wQIy79cVgiJs7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-15" value="User clicks on &quot;Next&quot; button to continue to next question." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezZ92j0wQIy79cVgiJs7-18" target="ezZ92j0wQIy79cVgiJs7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-18" value="User is redirected to the interview evaluation page" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezZ92j0wQIy79cVgiJs7-20" target="ezZ92j0wQIy79cVgiJs7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-20" value="User scrolls down to look at all the evaluations" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ezZ92j0wQIy79cVgiJs7-22" value="User exits the interview" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="550" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
