@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T20:28:19.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.0.6" etag="QG4kWnajFvYui66HPHHg" type="github"><diagram name="Page-1" id="jXJMu-4MkR-pegUi018I">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-06-06T21:23:26.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="W9Fpt8eM7fZqxl8W1qrv" version="21.0.6" type="github">
+  <diagram name="Page-1" id="jXJMu-4MkR-pegUi018I">
+    <mxGraphModel dx="1744" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tadk7PAJQ5tpi2wecQvT-1" target="tadk7PAJQ5tpi2wecQvT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-1" value="Create index.html according to specifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tadk7PAJQ5tpi2wecQvT-5" target="tadk7PAJQ5tpi2wecQvT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-5" value="Start AWS learner lab and get session credentials for programmatic access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="45" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tadk7PAJQ5tpi2wecQvT-7" target="tadk7PAJQ5tpi2wecQvT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-7" value="Create a Java Project and configure the AWS SDK dependencies" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="590" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tadk7PAJQ5tpi2wecQvT-10" target="tadk7PAJQ5tpi2wecQvT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-10" value="Write a Java Program to create an S3 Bucket and upload index.html into it as an S3 object" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="571.5" y="180" width="157" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tadk7PAJQ5tpi2wecQvT-13" target="tadk7PAJQ5tpi2wecQvT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-13" value="Store the details in the [default] profile inside ./aws/credentials file" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="410" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tadk7PAJQ5tpi2wecQvT-17" target="tadk7PAJQ5tpi2wecQvT-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-17" value="Enable public access on the S3 bucket that was created in the previous step" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tadk7PAJQ5tpi2wecQvT-19" target="tadk7PAJQ5tpi2wecQvT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-19" value="Enable static hosting on the S3 bucket" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="410" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tadk7PAJQ5tpi2wecQvT-21" target="tadk7PAJQ5tpi2wecQvT-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-21" value="Set bucket to allow public Read access to all objects" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-23" value="If done successfully, the static website (index.html) can be accessed publicly via URL" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="325" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-44" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="270" y="160" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="tadk7PAJQ5tpi2wecQvT-44">
+          <mxGeometry x="20" y="50" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="tadk7PAJQ5tpi2wecQvT-44">
+          <mxGeometry x="20" y="90" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-39" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tadk7PAJQ5tpi2wecQvT-44">
+          <mxGeometry y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-40" value="Use IDE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tadk7PAJQ5tpi2wecQvT-44">
+          <mxGeometry x="50" y="45" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-42" value="Use AWS Console" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tadk7PAJQ5tpi2wecQvT-44">
+          <mxGeometry x="50" y="85" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tadk7PAJQ5tpi2wecQvT-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tadk7PAJQ5tpi2wecQvT-44">
+          <mxGeometry width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
