@@ -8,13 +8,13 @@ Ever wondered how much smoother your app would run with a standardized image for
 
 ## Solution
 
-![solution](solution.png)
+![solution](solInAction.gif)
 
-Let's tackle this challenge head-on. Below, I'll show you how to create an efficient server-side solution using Node.js and Python. This setup not only streamlines your image management process but also optimizes your application's performance.
+Let's tackle this challenge head-on. Below, we present to you an efficient server-side solution using Node.js and Python. This setup not only streamlines your image management process but also optimizes your application's performance.
 
 ### Using Node.js with Express and Jimp
 
-Let's set up an Express server endpoint that automatically converts any uploaded PNG to a JPG format. This setup utilizes Jimp for image processing, ensuring that the conversion is handled efficiently and without significant overhead.
+Let's set up an Express server endpoint that automatically converts any uploaded PNG to a JPG format. This setup utilizes Jimp for image processing, eliminating the programming overhead.
 
 `npm i express cors`
 
