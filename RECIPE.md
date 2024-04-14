@@ -2,11 +2,9 @@
 
 ## Problem
 
-**Ever wondered how much smoother your app would run with a standardized image format?**
-
 Imagine you’re developing a content management system for a photography website where users frequently upload their stunning visuals. You’ve built it to handle various image formats, but as your platform scales, so do your storage costs and page load times—especially with those high-quality, large PNG files.
 
- How do you seamlessly integrate a feature that automatically converts every PNG to a more compact JPG format without bogging down the system?
+Ever wondered how much smoother your app would run with a standardized image format? How do you seamlessly integrate a feature that automatically converts every PNG to a more compact JPG format without bogging down the system?
 
 ## Solution
 
@@ -18,7 +16,7 @@ Let's tackle this challenge head-on. Below, we present to you an efficient serve
 
 Let's set up an Express server endpoint that automatically converts any uploaded PNG to a JPG format. This setup utilizes Jimp for image processing, eliminating the programming overhead.
 
-`npm i express cors jimp multer`
+`npm i express cors`
 
 ```javascript
 const express = require('express');
@@ -71,10 +69,6 @@ app.listen(port, () => {
 });
 ```
 
-#### Seeing is believeing
-
-<iframe src="https://replit.com/@naqeebalishamsi/FoolhardyLavenderFormula?embed=true" width="600" height="400"></iframe>
-
 ### Using Python with Flask and Pillow
 
 Here we configure a Flask route to accept image uploads and use Pillow to perform the conversion. This method ensures minimal processing time and maintains the responsiveness of your application.
@@ -122,5 +116,3 @@ if __name__ == '__main__':
 ## Discussion
 
 Implementing this automated image conversion feature enhances the scalability and efficiency of your web application by ensuring that all images are in a consistent format, optimizing both storage and load times. This solution is designed to be integrated seamlessly into any existing web application that handles image uploads, providing a reliable and efficient way to manage media content.
-
-![meme](meme.jpg)
