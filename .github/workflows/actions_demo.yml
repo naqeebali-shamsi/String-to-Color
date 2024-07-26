@@ -1,0 +1,59 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # checkout full tree
+          fetch-depth: 0
+
+      - name: Save changed SQL files to variable
+        id: save-changed-sql
+        run: |
+          changed_sql_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- '*.sql')
+          echo "::set-output name=changed_sql_files::$changed_sql_files"
+
+      - name: Use changed SQL files variable and call Python script
+        env:
+          CHANGED_SQL_FILES: ${{ steps.save-changed-sql.outputs.changed_sql_files }}
+        run: |
+          echo "Changed SQL Files: "
+          echo "${{ steps.save-changed-sql.outputs.changed_sql_files }}"
+
+          # Assuming you have 'extract_sql_files.py' available
+          python extract_sql_files.py "${CHANGED_SQL_FILES}"
+
+      - name: Use git diff variable
+        run: |
+          echo "Git Diff: "
+          echo "${{ steps.save-git-diff.outputs.diff }}"
+          echo
+
+  test1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # checkout full tree
+          fetch-depth: 0
+
+      - name: Save changed SQL files to variable
+        id: save-changed-sql
+        run: |
+          changed_sql_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- '*.sql')
+          echo "::set-output name=changed_sql_files::$changed_sql_files"
+
+      - name: Use changed SQL files variable and call Python script
+        env:
+          CHANGED_SQL_FILES: ${{ steps.save-changed-sql.outputs.changed_sql_files }}
+        run: |
+          echo "Changed SQL Files: "
+          echo "${{ steps.save-changed-sql.outputs.changed_sql_files }}"
+
+          # Call Python script with the list of changed SQL files as an argument
+          python extract_sql_files.py "${CHANGED_SQL_FILES}"
