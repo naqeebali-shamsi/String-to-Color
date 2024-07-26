@@ -1,59 +1,49 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+run-name: "${{ github.actor }} is testing out GitHub Actions \U0001F680"
+'on':
+  - push
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
         with:
-          # checkout full tree
           fetch-depth: 0
+      - name: Save SQL file names to variable
+        id: save-sql-file-names
+        run: >
+          changed_sql_files=$(git diff --name-only -- "*.sql" ${{
+          github.event.before }} ${{ github.sha }})
 
-      - name: Save changed SQL files to variable
-        id: save-changed-sql
-        run: |
-          changed_sql_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- '*.sql')
-          echo "::set-output name=changed_sql_files::$changed_sql_files"
-
-      - name: Use changed SQL files variable and call Python script
+          echo "CHANGED_SQL_FILES=$changed_sql_files" >> $GITHUB_ENV
+      - name: Use git diff variable and call Python script
         env:
-          CHANGED_SQL_FILES: ${{ steps.save-changed-sql.outputs.changed_sql_files }}
+          CHANGED_SQL_FILES: '${{ env.CHANGED_SQL_FILES }}'
         run: |
-          echo "Changed SQL Files: "
-          echo "${{ steps.save-changed-sql.outputs.changed_sql_files }}"
+          echo "Git Diff (SQL only) Files: "
+          echo "$CHANGED_SQL_FILES"
 
           # Assuming you have 'extract_sql_files.py' available
-          python extract_sql_files.py "${CHANGED_SQL_FILES}"
-
-      - name: Use git diff variable
-        run: |
-          echo "Git Diff: "
-          echo "${{ steps.save-git-diff.outputs.diff }}"
-          echo
-
+          python extract_sql_files.py "$CHANGED_SQL_FILES"
   test1:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
         with:
-          # checkout full tree
           fetch-depth: 0
+      - name: Save SQL file names to variable
+        id: save-sql-file-names
+        run: >
+          changed_sql_files=$(git diff --name-only -- "*.sql" ${{
+          github.event.before }} ${{ github.sha }})
 
-      - name: Save changed SQL files to variable
-        id: save-changed-sql
-        run: |
-          changed_sql_files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- '*.sql')
-          echo "::set-output name=changed_sql_files::$changed_sql_files"
-
-      - name: Use changed SQL files variable and call Python script
+          echo "CHANGED_SQL_FILES=$changed_sql_files" >> $GITHUB_ENV
+      - name: Use git diff variable and call Python script
         env:
-          CHANGED_SQL_FILES: ${{ steps.save-changed-sql.outputs.changed_sql_files }}
+          CHANGED_SQL_FILES: '${{ env.CHANGED_SQL_FILES }}'
         run: |
-          echo "Changed SQL Files: "
-          echo "${{ steps.save-changed-sql.outputs.changed_sql_files }}"
+          echo "Git Diff (SQL only) Files: "
+          echo "$CHANGED_SQL_FILES"
 
-          # Call Python script with the list of changed SQL files as an argument
-          python extract_sql_files.py "${CHANGED_SQL_FILES}"
+          # Call Python script with the git diff as an argument
+          python extract_sql_files.py "$CHANGED_SQL_FILES"
